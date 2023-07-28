@@ -1,5 +1,5 @@
 import React from "react";
-import s1Img from "../../public/images/colarge/s1.jpg";
+import s1Img from "../../public/2.jpg";
 import isoImg from "../../public/iso_b.jpeg";
 import yearsImg from "../../public/25_years.jpeg";
 
