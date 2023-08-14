@@ -12,7 +12,7 @@ const MainLayout = ({children, title}) => {
                 <meta name={'keyword'} content={'Kal, Polymers, Plastic'}/>
             </Head>
             <main className={"page-wraper"} key={1}>
-                <div>
+                <div className={"page-content"}>
                     {children}
                 </div>
             </main>

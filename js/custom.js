@@ -859,7 +859,7 @@ function testimonial_13_content(){
 	
 	}
 
-	//  Service Gallery Carousel two function by = owl.carousel.js ========================== //
+	//  Service.tsx Gallery Carousel two function by = owl.carousel.js ========================== //
 	function services_gallery_carousel_two(){
 		jQuery('.services-gallery-two').owlCarousel({
 			loop:true,
@@ -888,7 +888,7 @@ function testimonial_13_content(){
 
 		
 
-//  Service Gallery Carousel twelve function by = owl.carousel.js ========================== //
+//  Service.tsx Gallery Carousel twelve function by = owl.carousel.js ========================== //
 function service_button_filter(){
 		
 	var owl = jQuery('.service_button_filter').owlCarousel({
@@ -1084,7 +1084,7 @@ function service_button_filter(){
 	}
 	
 
-	//  Service Gallery Carousel function by = owl.carousel.js ========================== //
+	//  Service.tsx Gallery Carousel function by = owl.carousel.js ========================== //
 	function blog_gallery_carousel(){
 		jQuery('.blog-gallery-one').owlCarousel({
 			loop:true,
@@ -1349,11 +1349,11 @@ $.fn.owlFilter = function(data, callback) {
 		services_style_new(),	
         // > home_projects_filter Full Screen with no margin function by = owl.carousel.js ========================== //
 	    home_projects_filter(),
-		//  Service Gallery Carousel twelve function by = owl.carousel.js ========================== //
+		//  Service.tsx Gallery Carousel twelve function by = owl.carousel.js ========================== //
 		service_button_filter(),
 		// Home page Testimonial Slider function by = owl.carousel.js ========================== //
 	    testimonial_12_content(),
-	    // Service Gallery Carousel two function by = owl.carousel.js ========================== //
+	    // Service.tsx Gallery Carousel two function by = owl.carousel.js ========================== //
 	    services_gallery_carousel_two(),
 		//  Client logo Carousel function by = owl.carousel.js ========================== //
 		home_client_carousel_11(),
@@ -1363,7 +1363,7 @@ $.fn.owlFilter = function(data, callback) {
         project_carousel(),
 		// Home page Testimonial Slider function by = owl.carousel.js ========================== //
 	    testimonial_11_content(),
-		//  Service Gallery Carousel function by = owl.carousel.js ========================== //
+		//  Service.tsx Gallery Carousel function by = owl.carousel.js ========================== //
 		blog_gallery_carousel(),							
 		//  Counter Section function by = counterup.min.js ========================== //
 		counter_section(),

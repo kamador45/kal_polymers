@@ -3,6 +3,7 @@ import Image from "next/image";
 import logoApp from "../../public/kal_logo.jpeg";
 import awardsImg from "../../public/25_years.jpeg";
 import isoImg from "../../public/iso_b.jpeg";
+import Link from "next/link";
 
 const Header = () => {
     return(
@@ -38,9 +39,9 @@ const Header = () => {
             <div className="container header-middle clearfix">
                 <div className="logo-header">
                     <div className="logo-header-inner logo-header-one">
-                        <a href="index.html">
+                        <Link href="/">
                             <img src={logoApp.src} alt="" />
-                        </a>
+                        </Link>
                     </div>
                 </div>
 
@@ -75,34 +76,22 @@ const Header = () => {
                         <div className="nav-animation header-nav navbar-collapse collapse d-flex justify-content-center">
 
                             <ul className=" nav navbar-nav">
-                                <li><a href="javascript:;">Home</a>
-                                    <ul className="sub-menu">
-                                        <li><a href="#">Home</a></li>
-                                    </ul>
+                                <li>
+                                    <Link href={"/"}>Home</Link>
                                 </li>
 
-                                <li><a href="javascript:;">About</a>
-                                    <ul className="sub-menu">
-                                        <li><a href="#">About</a></li>
-                                    </ul>
+                                <li>
+                                    <Link href={"/about"}>About Us</Link>
                                 </li>
-                                <li><a href="javascript:;">Services</a>
-                                    <ul className="sub-menu">
-                                        <li><a href="#">Services List</a></li>
-
-                                    </ul>
+                                <li><Link href="/services">Services</Link>
                                 </li>
-                                <li><a href="javascript:;">Project</a>
-                                    <ul className="sub-menu">
-                                        <li><a href="#">Project Grid</a></li>
-                                    </ul>
+                                <li>
+                                    <Link href="/projects">Project</Link>
                                 </li>
-                                <li><a href="javascript:;">Shop</a>
-                                    <ul className="sub-menu">
-                                        <li><a href="#">Shop</a></li>
-                                    </ul>
+                                <li>
+                                    <a href="javascript:;">Shop</a>
                                 </li>
-                                <li><a href="#">Contact us</a></li>
+                                <li><Link href="/contact">Contact us</Link></li>
                             </ul>
 
                         </div>

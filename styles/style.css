@@ -15593,7 +15593,7 @@ margin-bottom:0px;}
     line-height: 1;
 	color:#fff;
 }
-/*Service Detail*/
+/*Service.tsx Detail*/
 .service-detail-video .video-section-2{
 	position: relative;
 	z-index: 1;
@@ -19591,7 +19591,7 @@ background: linear-gradient(0deg, rgba(255,94,21,1) 0%, rgba(0,23,60,1) 100%);
 		padding-top: 30px;
 	}
 }
-/*Service Box Icon*/ 
+/*Service.tsx Box Icon*/
 .service-icon-box-three {
 	position: relative;
 	padding: 40px 40px 40px 40px;

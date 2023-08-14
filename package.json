@@ -15,7 +15,10 @@
     "react-slideshow-image": "^4.2.1"
   },
   "devDependencies": {
+    "@types/node": "20.5.0",
+    "@types/react": "18.2.20",
     "eslint": "8.45.0",
-    "eslint-config-next": "13.4.12"
+    "eslint-config-next": "13.4.12",
+    "typescript": "5.1.6"
   }
 }
